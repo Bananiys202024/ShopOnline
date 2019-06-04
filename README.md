@@ -26,7 +26,7 @@
         <li>Ability to LogIn and SignUp by Spring Security</li>
         <li>Ability restore password</li>
         <li>Ability review of ordered items</li>
-        
+        <li>6 different types of sorting items</li>
     
     
    </ul>
