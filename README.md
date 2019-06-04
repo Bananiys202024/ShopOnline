@@ -49,7 +49,7 @@
         </li>
         
         <li>For working of sorting:
-        You should add to your tomcat to file "server.xml" next line:<br>
+        You should add to your tomcat to file "server.xml" next line:
         Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8"
         </li>
         
@@ -58,9 +58,8 @@
         <br>b)Set email on line 25 in file "servlet-context.xml";
         <br>c)Set email on line 112 in controller to your email;
         <br>d)Only gmail;
-        
         </li>
-        <li></li>
+        
         
         
    </ol>
