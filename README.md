@@ -53,9 +53,9 @@
         </li>
         
         <li>for connecting Registration and RestorePassword:
-        a)Set email company and password company in class "SendEmail" on lines:18,19;
-        <br>b)Set email on line 25 in file "servlet-context.xml";
-        <br>c)Set email on line 112 in controller to your email;
+        a)Set email company and password company in class "SendEmail" on lines:18,19
+        <br>b)Set email on line 25 in file "servlet-context.xml"
+        <br>c)Set email on line 112 in controller to your email
         <br>d)Only gmail;
         </li>
         
