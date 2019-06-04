@@ -24,6 +24,9 @@
         <li>Ability send message at the phone: "We sended your order."</li>
         <li>Ability to restore password by gmail</li>
         <li>Ability to LogIn and SignUp by Spring Security</li>
+        <li>Ability restore password</li>
+        <li>Ability review of ordered items</li>
+        
     
     
    </ul>
