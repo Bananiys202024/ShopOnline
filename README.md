@@ -40,7 +40,7 @@
 
 </h6>
 
-<h2>For check all options you should...</h2>
+<h2>Tuning project...</h2>
 
 <h6>
     <ol>
