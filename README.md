@@ -45,8 +45,7 @@
 <h6>
     <ol>
         <li>For sending message:<br>
-        You should get trial account of twilio and <br>then to tuning class "SendSms" in package "CloudCommunicationPlatform"<br>
-        in match with your trial account.
+        You should get trial account of twilio and <br>then to tuning class "SendSms" in package "CloudCommunicationPlatform" in match with your trial account.
         </li>
         
         <li>For working of sorting:
