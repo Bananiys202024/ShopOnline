@@ -31,6 +31,9 @@
         <li Ability edit own product for Admin<li>
         <li>Ability add comment</li>
         <li>Ability to edit comment</li>
+        <li>Ability count sold amount of items for Admin</li>
+        <li>Ability to revise lately viewed items</li>
+        <li>Ability add rating</li>
         
     
    </ul>
