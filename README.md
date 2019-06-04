@@ -28,7 +28,7 @@
         <li>Ability review of ordered items</li>
         <li>6 different types of sorting items</li>
         <li>Ability create own product for Admin</li>
-        <li Ability edit own product for Admin</li>
+        <li>Ability edit own product for Admin</li>
         <li>Ability add comment</li>
         <li>Ability to edit comment</li>
         <li>Ability count sold amount of items for Admin</li>
