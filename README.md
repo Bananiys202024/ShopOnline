@@ -44,19 +44,22 @@
 
 <h6>
     <ol>
-     <li>For sending message:
-        You should get trial account of twilio and <br>then to tuning class "SendSms" in package              "CloudCommunicationPlatform" in match with your trial account </li>      
-     <li>for connecting Registration and RestorePassword:
+     <li>For sending message:<br>
+        You should get trial account of twilio and then to tuning class "SendSms" in package              "CloudCommunicationPlatform" in match with your trial account </li>      
+     <li>for connecting Registration and RestorePassword:<br>
         a)Set email company and password company in class "SendEmail" on lines:18,19
         <br>b)Set email on line 25 in file "servlet-context.xml"
         <br>c)Set email on line 112 in controller to your email
         <br>d)Only gmail;
      </li>  
-    <li>For working of sorting:<br>        You should add to your tomcat to file "server.xml" next line:<li>
+     For working of sorting:<br>        You should add to your tomcat to file "server.xml" next line:
         
         <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8">
-        
-   </ol>     
+    
+    
+    
+    
+     
 </h6>
     
     
