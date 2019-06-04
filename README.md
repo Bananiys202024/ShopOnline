@@ -7,7 +7,7 @@
 
 <h6>
     Java&IDE: JDK7 MyEclipse2018<br>
-    Backend: SpringMVC, Spring, Hibernate, Spring Security<br>
+    Backend: SpringMVC, Spring, Hibernate, jdbc, Spring Security<br>
     Frontend: JQuery, Ajax <br>
     Database: mysql7<br>
     Web Server: Tomcat 7<br>
