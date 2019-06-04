@@ -3,7 +3,7 @@
 <h2>Overwiew</h1>
 <h6>This is my first web stie. He is completed. He works, but...code is terrible.<h6>
 
-<h2>Frameworks and toosl</h1>
+<h2>Frameworks and tools</h1>
 
 <h6>
     Java&IDE: JDK7 MyEclipse2018<br>
