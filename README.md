@@ -52,7 +52,7 @@
         <br>c)Set email on line 112 in controller to your email
         <br>d)Only gmail;
      </li>  
-     <li>For working of sorting:<br>        You should add to your tomcat to file "server.xml" next line:
+     <li>For work of sorting:<br>        You should add to your tomcat to file "server.xml" next line:
         
         
             <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8">
