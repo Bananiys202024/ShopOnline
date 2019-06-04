@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+
+
+body {
+	box-sizing: border-box;
+}
+
+.IndentOfCatalogItems {
+	height: 32px;
+	border-bottom: 2px solid #c5cbd5;
+}
+
+.OwnerContainerForDefineLocation {
+box-sizing: border-box;
+color: rgb(4, 12, 19);
+font-family: Human BBY Web, Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16px;
+margin-bottom: 0px;
+margin-left: 154px;
+margin-right: 154px;
+margin-top: 0px;
+max-width: 1600px;
+min-width: 992px;
+margin: 0 auto;
+
+line-height: normal;
+color: #040c13;
+font-family: Human BBY Web,Arial,Helvetica,sans-serif;
+}
+
+.DefineLocationInsideOwnerContainer {	
+font-size: 13px;
+line-height: normal;
+color: #040c13;
+font-family: Human BBY Web,Arial,Helvetica,sans-serif;
+}
+
+.TryToRegulateLocationOfTextInsideOfContainer {
+position: relative;
+min-height: 1px;
+
+width: 100%;
+float: left;
+}
+
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+/* <!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --><!-- Start Sign In the TOP --> */
+
+
+
+
+.search-header-breadcrumb-list {
+box-sizing: border-box;
+color: rgb(4, 12, 19);
+display: block;
+font-family: Human BBY Web, Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16px;
+margin-bottom: 20px;
+margin-top: 7px;
+}
+
+.app-container .nav  ol {
+	box-sizing: border-box;
+color: rgb(4, 12, 19);
+font-family: Human BBY Web, Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
+.search-header-breadcrumb-list  li {
+box-sizing: border-box;
+color: rgb(4, 12, 19);
+float: left;
+font-family: Human BBY Web, Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+
+}
+
+.search-header-breadcrumb-list  li a {
+	box-sizing: border-box;
+color: rgb(4, 87, 200);
+font-family: Human BBY Web, Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+text-decoration:none;
+}
+
+.search-header-breadcrumb-list  li span {
+	border-bottom-color: rgba(0, 0, 0, 0);
+border-bottom-style: solid;
+border-bottom-width: 4px;
+border-left-color: rgb(154, 155, 155);
+border-left-style: solid;
+border-left-width: 4px;
+border-top-color: rgba(0, 0, 0, 0);
+border-top-style: solid;
+border-top-width: 4px;
+box-sizing: border-box;
+color: rgb(4, 12, 19);
+display: inline-block;
+font-family: Human BBY Web, Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 8px;
+line-height: 16px;
+list-style-image: none;
+list-style-position: outside;
+list-style-type: none;
+padding-right: 7px;
+width: 11px;
+}
+
+.browse-title {
+box-sizing: border-box;
+color: rgb(4, 12, 19);
+font-family: Human BBY Web, Arial, Helvetica, sans-serif;
+font-size: 20px;
+padding-left: 40px;
+
+}
+
+/* <!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --> */
+/* <!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --> */
+/* <!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --> */
+/* <!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --> */
+/* <!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --><!-- End Sign In the TOP --> */

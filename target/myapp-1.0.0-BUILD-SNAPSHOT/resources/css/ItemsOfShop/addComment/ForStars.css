@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+
+.ContainerForstars .TransparantStar {
+width:44px;
+}
+
+.ContainerForstars .Star {
+width: 49px;
+position: absolute;
+margin-left: -3.1px;
+}
+
+
+.ContainerForstars .ThatForStars {
+/* display: flex; */
+float: left;
+margin-bottom: 30px;
+margin-left: 35%;
+margin-top: -7%;
+}
+
+.ContainerForstars .ThatForTransparantStars {
+float: left;
+}	
+
+
+.ContainerForstars .fortext {
+background-color:blue;
+}
+
+.ContainerForstars .forTexxtComeBack {
+background-color:white;
+}
+
+.showPatric {
+display:none;
+}
+
+.hide{
+display:none;
+}
+
+.ContainerForstars .SheWillBeBrightFromDayOfCreationUniverseToOurDays {
+display:inline !important;
+}

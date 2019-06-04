@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+
+.ForAlignOfTwoContainer {
+	width: 95%;
+margin-left: 2.5%;
+margin-right: 2.5%;
+
+margin-top: 1%;
+}
+
+.FisrtForAlignOfTwoContainer {
+	width: 20%;
+float: left;
+}
+
+.SecondForAlignOfTwoContainer {
+float: left;
+width: 79%;
+margin-left: 1%;
+}
+
+.page-titleLeft {
+margin-top: 20px;
+}
+
+
+
+
+.ThatForLineAround {
+border: 2px solid #c5cbd5;
+padding: 1% 1%;
+}
+
+
+
+
+
+.page-titleLeft {
+	line-height: normal;
+font-size: 20px;
+font-weight: 600;
+	
+}
+
+
+.page-titleRight {
+line-height: normal;
+font-size: 20px;
+font-weight: 600;
+	
+}
+
+
+
+
+
+
+

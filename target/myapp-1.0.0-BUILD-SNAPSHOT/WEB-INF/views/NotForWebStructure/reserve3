@@ -1,0 +1,183 @@
+  @Override
+    public PaginationResult<ProductInfo> queryProducts(
+    		int page, 
+    		int maxResult, 
+    		int maxNavigationPage,
+            String likeName,
+            String TransitedTypeOfSorting,
+            String categorySearch, 
+            String sortByBrand, 
+            String sortByPrice, 
+            String sortByRating) {
+    	
+    	
+    	
+    	
+        String sql = "Select new " + ProductInfo.class.getName() //
+                + "(p.code, p.name, p.price, p.createDate, p.quantity, p.rating, p.Category, p.Brand) " + " from "//
+                + Product.class.getName() + " p ";
+        
+        
+        //Part for sorting
+        boolean SearchB = VariableValidator.EmptyOrNotSearch(likeName); //Search
+        boolean SortinByCategory = VariableValidator.emptyOrNotSortCatB(categorySearch); //Sorting by categories(side menu)
+        boolean SortingByBrand = VariableValidator.emptyOrNotSortByBrand(sortByBrand); //Sorting by brand(side menu)
+            
+        boolean[] values = new boolean[3];
+        
+        values[0] = SearchB;
+        values[1] = SortinByCategory;
+        values[2] = SortingByBrand;
+
+        String arrayString = Arrays.toString(values);
+        switch (arrayString) {
+            case "[true, true, true]"://all
+            	sql +=	"Where lower(p.name) like :likeName AND category like :categorySearch AND brand like:sortByBrand";
+                break;
+            case "[true, true, false]"://category and search
+            	sql += " Where category like :categorySearch AND lower(p.name) like :likeName";
+                break;
+                
+            case "[true, false, true]"://search and brand
+            	sql += " Where brand like:sortByBrand AND lower(p.name) like :likeName";
+                break;
+                
+            case "[false, true, true]"://category and brand
+            	sql += " Where category like :categorySearch AND brand like:sortByBrand";
+                break;
+            
+            case "[true, false, false]"://search
+            	sql += " Where lower(p.name) like :likeName";
+                break;
+                
+            case "[false, true, false]"://category
+            	sql += " Where category like :categorySearch";
+                break;
+                
+            case "[false, false, true]"://brand
+            	sql += " Where brand like:sortByBrand";
+                break;
+                
+            default:      
+                break;
+        }
+        //....
+        //...
+        
+        
+        
+        //sorting by price
+        
+        if(arrayString.contains("true"))
+        {  	
+        if(sortByPrice.equals("1000")) {sql += " AND price < 1000";}
+        if(sortByPrice.equals("1_000-3000")) {sql += " AND price > 1000 AND price<3000";}
+        if(sortByPrice.equals("3000-5000")) {sql += " AND price > 3000 AND price<5000";}
+        if(sortByPrice.equals("5000-10_000")) {sql += " AND price > 5000 AND price<10000";}
+        if(sortByPrice.equals(">10_000")) {sql += " AND price > 10000";}      
+        }
+        else {
+        	 if(sortByPrice.equals("1000")) {sql += " WHERE price < 1000";}
+             if(sortByPrice.equals("1_000-3000")) {sql += " WHERE price > 1000 AND price<3000";}
+             if(sortByPrice.equals("3000-5000")) {sql += " WHERE price > 3000 AND price<5000";}
+             if(sortByPrice.equals("5000-10_000")) {sql += " WHERE price > 5000 AND price<10000";}
+             if(sortByPrice.equals(">10_000")) {sql += " WHERE price > 10000";}     
+        }
+        //...
+        
+        //sort by rating
+        if(arrayString.contains("true") || !sortByPrice.equals(""))
+        {
+        	 if(sortByRating.equals("5")) {sql += " AND rating <= 5 AND rating >=4.5";}
+             if(sortByRating.equals("4")) {sql += " AND rating < 4.5 AND rating>4";}
+             if(sortByRating.equals("3")) {sql += " AND rating >=3 AND rating<4";}
+             if(sortByRating.equals("2")) {sql += " AND rating<=2 AND rating<3";}
+             if(sortByRating.equals("1")) {sql += " AND rating<2";}      
+             }
+             else {
+            	 if(sortByRating.equals("5")) {sql += " WHERE rating <= 5 AND rating >=4.5";}
+                 if(sortByRating.equals("4")) {sql += " WHERE rating < 4.5 AND rating>4";}
+                 if(sortByRating.equals("3")) {sql += " WHERE rating >=3 AND rating<4";}
+                 if(sortByRating.equals("2")) {sql += " WHERE rating<=2 AND rating<3";}
+                 if(sortByRating.equals("1")) {sql += " WHERE rating<2";}        
+             }
+        
+//        ratingSorting=${ChoosenBrand}&
+        
+        //
+        
+        
+        if(TransitedTypeOfSorting.equals("TransitTypeSorting")) {
+        sql += " order by p.createDate ";
+        }
+        
+        if(TransitedTypeOfSorting.equals("BrandAZ")) {
+        sql += " order by Name ";
+        }
+        
+        if(TransitedTypeOfSorting.equals("BrandZA")) {
+            sql += " order by Name desc ";
+        }
+        
+        if(TransitedTypeOfSorting.equals("PriceLowToHight")) {
+            sql += " order by Price";
+        }
+        
+        if(TransitedTypeOfSorting.equals("PriceHightToLow")) {
+            sql += " order by Price desc";
+        }
+        
+        if(TransitedTypeOfSorting.equals("NewArrivals")) {
+            sql += " order by createDate desc";
+        }
+        
+     
+        Session session = sessionFactory.getCurrentSession();
+ 
+        Query query = session.createQuery(sql);
+
+        
+        //sorting 
+        switch (Arrays.toString(values)) {
+        case "[true, true, true]"://all
+        	query.setParameter("likeName", "%" + likeName.toLowerCase() + "%");
+        	query.setParameter("categorySearch", "%" +  categorySearch + "%");
+        	query.setParameter("sortByBrand", "%" +  sortByBrand + "%");
+            break;
+        case "[true, true, false]"://category and search
+        	query.setParameter("likeName", "%" + likeName.toLowerCase() + "%");
+        	query.setParameter("categorySearch", "%" +  categorySearch + "%");
+            break;
+            
+        case "[true, false, true]"://search and brand
+        	query.setParameter("likeName", "%" + likeName.toLowerCase() + "%");
+        	query.setParameter("sortByBrand", "%" +  sortByBrand + "%");
+            break;
+            
+        case "[false, true, true]"://category and brand
+        	query.setParameter("categorySearch", "%" +  categorySearch + "%");
+        	query.setParameter("sortByBrand", "%" +  sortByBrand + "%");
+            break;
+        
+        case "[true, false, false]"://search
+        	query.setParameter("likeName", "%" + likeName.toLowerCase() + "%");
+            break;
+            
+        case "[false, true, false]"://category
+        	query.setParameter("categorySearch", "%" +  categorySearch + "%");
+            break;
+            
+        case "[false, false, true]"://brand
+        	query.setParameter("sortByBrand", "%" +  sortByBrand + "%");
+            break;
+            
+        default:      
+            break;
+    }
+     //..
+     //...
+      
+        List<?> resultts = query.list();
+
+        return new PaginationResult<ProductInfo>(query, page, maxResult, maxNavigationPage);
+    }

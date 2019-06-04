@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+
+
+/* Start Section Of Advantages */
+
+
+
+.OwnerSectionOfAdvantages {
+/* border-top: 1px solid black; Параметры границы */
+padding: 15px 15px;
+max-width: 1008px;
+min-width: 1008px;
+/* margin-bottom: 30px; */
+width: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+
+.SectionOfAdvantages {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+
+
+}
+
+
+.SectionOfAdvantagesSecond {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 30px;
+min-height: 1px;
+padding-left: 28px;
+padding-right: 15px;
+position: relative;
+width: 336px;
+}
+
+.SectionOfAdvantagesThird {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-top: 0px;
+}
+
+
+.SectionOfAdvantagesFourth {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: table;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+width: 306px;
+}
+
+
+.SectionOfAdvantagesFourth .Image {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: table-cell;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+padding-right: 10px;
+vertical-align: top;
+width: 79px;
+}
+
+.imagestoTo {
+border-bottom-color: rgb(29, 37, 44);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(29, 37, 44);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(29, 37, 44);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(29, 37, 44);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 69px;
+line-height: 16.9px;
+max-width: 100%;
+vertical-align: middle;
+width: 69px;
+}
+
+.textarea h3 {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 22px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+}
+
+
+
+.textarea p {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 9px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}

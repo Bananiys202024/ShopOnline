@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+
+
+
+.ForTryingToLocateOfContainer {
+padding: 0 15px;
+max-width: 1008px;
+min-width: 1008px;
+width: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+
+.mayBeWeShouldDeleteThisMargin {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-left: -15px;
+margin-right: -15px;
+}
+
+.FeaturedProductsContainerFirst {
+	ox-sizing: border-box;
+color: rgb(29, 37, 44);
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 30px;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+position: relative;
+width: 1008px;
+}
+
+.FeaturedProductsContainerSecond {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 30px;
+margin-top: 0px;
+}
+
+.FeaturedProductsContainerThird {
+	background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(255, 255, 255);
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto auto;
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+position: relative;
+width: 978px;
+}
+
+.FirstContainerForInnerThings {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 30px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: relative;
+width: 978px;
+}
+
+.SecondContainerForInnerThings {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+}
+
+.ThirdContainerForInnerThings {
+	border-bottom-left-radius: 4px;
+border-bottom-right-radius: 4px;
+border-top-left-radius: 4px;
+border-top-right-radius: 4px;
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: inline-block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-left: 0px;
+position: relative;
+width: 978px;
+}
+
+.FourthContainerForInnerThings {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+position: relative;
+width: 978px;
+}
+
+
+.InnerThingsInConteiner {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 0px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+position: relative;
+width: 898px;
+}
+
+.OtherLaLaLa {
+	
+}

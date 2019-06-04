@@ -1,0 +1,786 @@
+@charset "UTF-8";
+
+
+
+.ContainerForLocationTrendingDealsFirst {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+
+
+margin-left: auto;
+margin-right: auto;
+max-width: 1008px;
+min-width: 1008px;
+width: auto;
+}
+
+.ContainerForLocationTrendingDealsSecond {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 30px;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+position: relative;
+width: 1008px;
+}
+
+.ContainerForLocationTrendingDealsThird {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+.ContainerForLocationTrendingDealsFourth {
+	background-attachment: scroll;
+background-clip: border-box;
+background-color: rgb(255, 255, 255);
+background-image: none;
+background-origin: padding-box;
+background-position: 0% 0%;
+background-position-x: 0%;
+background-position-y: 0%;
+background-repeat: repeat;
+background-size: auto auto;
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+position: relative;
+width: 978px;
+
+
+}
+
+
+.header {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+}
+
+
+
+
+
+.header h2 {
+border-bottom-color: rgb(29, 37, 44);
+border-bottom-style: none;
+border-bottom-width: 0px;
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+margin-bottom: 10px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: relative;
+}
+
+
+.page-count {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-top: 13px;
+position: absolute;
+right: 15px;
+top: 0px;	
+}
+
+.current_Page {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 16.9px;
+}
+
+.total_Page {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 16.9px;
+}
+
+.horizontal-ruler {
+	border-bottom-color: rgb(197, 203, 213);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: inline-block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 2px;
+line-height: 16.9px;
+margin-bottom: 15px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+width: 978px;
+}
+
+
+.containerForInnerItems {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 30px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: relative;
+width: 978px;
+}
+
+.YetOneContainerForInnerItems {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+}
+
+.LastInnerContainerForPushItemsINsideThisContainer {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+position: relative;
+width: 978px;
+}
+
+.arrowWraper {
+	background-color: rgba(0, 0, 0, 0);
+bottom: 0px;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+cursor: default;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+left: 0px;
+line-height: 16.9px;
+outline-color: rgb(0, 70, 190);
+outline-style: none;
+outline-width: 0px;
+pointer-events: none;
+position: absolute;
+text-align: center;
+text-decoration: none;
+text-decoration-color: rgb(0, 70, 190);
+text-decoration-line: none;
+text-decoration-style: solid;
+top: 0px;
+width: 40px;
+}
+
+.leftArrow {
+	background-color: rgba(0, 0, 0, 0);
+background: url(../../images/ViewProduct/Arrows.png);
+background-position: 0px 50%;
+background-position-x: 0px;
+background-position-y: 50%;
+background-repeat: no-repeat;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+cursor: default;
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+left: 0px;
+line-height: 16.9px;
+pointer-events: none;
+position: relative;
+text-align: center;
+top: 0px;
+width: 30px;
+z-index: 5;
+}
+
+.Previous {
+	border-bottom-color: rgb(0, 70, 190);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(0, 70, 190);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 70, 190);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 70, 190);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+clip: rect(0px, 0px, 0px, 0px);
+color: rgb(0, 70, 190);
+cursor: default;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 1px;
+line-height: 16.9px;
+margin-bottom: -1px;
+margin-left: -1px;
+margin-right: -1px;
+margin-top: -1px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+pointer-events: none;
+position: absolute;
+text-align: center;
+width: 1px;
+}
+
+.WrapperForThingsInside {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 0px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+position: relative;
+width: 898px;
+}
+
+
+
+
+
+
+
+.RightArrowWraper {
+	
+background-color: rgba(0, 0, 0, 0);
+bottom: 0px;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+cursor: pointer;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+left: 938px;
+line-height: 16.9px;
+outline-color: rgb(0, 70, 190);
+outline-style: none;
+outline-width: 0px;
+position: absolute;
+right: 0px;
+text-align: center;
+text-decoration: none;
+text-decoration-color: rgb(0, 70, 190);
+text-decoration-line: none;
+text-decoration-style: solid;
+top: 0px;
+width: 40px;
+
+
+}
+
+
+
+
+.RightArrow {
+	background-color: rgba(0, 0, 0, 0);
+/* background-image: url("https://assets.bbystatic.com/sc-recommendations-carousel/images/carousel_arrows_sprite-316b96a33a972b1afdcb2142fd8ae92e.png"); */
+background: url(../../images/ViewProduct/Arrows.png);
+background-position: -175px 50%;
+background-position-x: -175px;
+background-position-y: 50%;
+background-repeat: no-repeat;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+cursor: pointer;
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+left: 10px;
+line-height: 16.9px;
+position: relative;
+right: 0px;
+text-align: center;
+top: 0px;
+width: 30px;
+z-index: 5;
+}
+
+.RightPrevious {
+border-bottom-color: rgb(0, 70, 190);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(0, 70, 190);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 70, 190);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 70, 190);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+clip: rect(0px, 0px, 0px, 0px);
+color: rgb(0, 70, 190);
+cursor: pointer;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 1px;
+line-height: 16.9px;
+margin-bottom: -1px;
+margin-left: -1px;
+margin-right: -1px;
+margin-top: -1px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: absolute;
+text-align: center;
+width: 1px;
+}
+
+.LastContainerForThingsInside {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+left: 0px;
+line-height: 16.9px;
+position: relative;
+transition-delay: 0s;
+transition-duration: 0.6s;
+transition-property: left;
+transition-timing-function: ease-in-out;
+width: 898px;
+}
+
+
+.ContainerForThingInside {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: inline-block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+vertical-align: top;
+width: 19.6%;
+}
+
+.ContainerForThingInsideForLocation {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 302px;
+line-height: 16.9px;
+padding-bottom: 0px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 0px;
+}
+
+.TighlyContainer {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+width: 149.6px;
+}
+
+
+.ImageWithSign {
+background-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+text-decoration: none;
+text-decoration-color: rgb(0, 70, 190);
+text-decoration-line: none;
+text-decoration-style: solid;
+}
+
+.ImageWrapper {
+	box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: table;
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+width: 149.6px;
+}
+
+.ThatOfImage {
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: table-cell;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 120px;
+line-height: 16.9px;
+vertical-align: bottom;
+width: 149.6px;
+}
+
+.ThatOfImage .Image {
+	border-bottom-color: rgb(0, 70, 190);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(0, 70, 190);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 70, 190);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 70, 190);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 120px;
+line-height: 16.9px;
+margin-bottom: 0px;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 0px;
+max-height: 120px;
+max-width: 100%;
+vertical-align: middle;
+width: 49.6px;
+}
+
+.ItemTitle {
+	box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: inline-block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-top: 20px;
+overflow-wrap: break-word;
+width: 149.6px;
+}
+
+.Ratings {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-top: 5px;
+}
+
+.RatingLink {
+	background-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: inline;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+text-decoration: none;
+text-decoration-color: rgb(0, 70, 190);
+text-decoration-line: none;
+text-decoration-style: solid;
+}
+
+.YetOneContainerOfRating {
+/* 	background-image: url("https://assets.bbystatic.com/site-control-page/widgets/carousel/images/small-empty-0e061566b7e100fb42f3ef55bea584ee.png"); */
+background: url(../../images/ViewProduct/unfilled.png);
+
+background-repeat: repeat-x;
+background-size: 89px 16px;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: inline-block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 16px;
+line-height: 16.9px;
+vertical-align: top;
+width: 90px;
+}
+
+.fill {
+/* background-image: url("https://assets.bbystatic.com/site-control-page/widgets/carousel/images/small-full-dd5735d05ef2bf2ea59c5986468490b8.png"); */
+/* background: url(../../images/ViewProduct/unfilled.png); */
+background: url(../../images/ViewProduct/filled.png);
+background-repeat: repeat-x;
+background-size: 89px 16px;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 16px;
+line-height: 16.9px;
+width: 81px;
+}
+
+.LaLaLaOfRating {
+	border-bottom-color: rgb(0, 70, 190);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(0, 70, 190);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 70, 190);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 70, 190);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+clip: rect(0px, 0px, 0px, 0px);
+color: rgb(0, 70, 190);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 1px;
+line-height: 16.9px;
+margin-bottom: -1px;
+margin-left: -1px;
+margin-right: -1px;
+margin-top: -1px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: absolute;
+width: 1px;
+}
+
+.mayBeThatWatchingNearWithRating {
+	background-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: inline;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+text-decoration: none;
+text-decoration-color: rgb(0, 70, 190);
+text-decoration-line: none;
+text-decoration-style: solid;
+}
+
+.ThatSeamToBeReviews {
+border-bottom-color: rgb(0, 70, 190);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(0, 70, 190);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 70, 190);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 70, 190);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+clip: rect(0px, 0px, 0px, 0px);
+color: rgb(0, 70, 190);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 1px;
+line-height: 16.9px;
+margin-bottom: -1px;
+margin-left: -1px;
+margin-right: -1px;
+margin-top: -1px;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+position: absolute;
+width: 1px;
+}
+
+.OnSale {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-top: 5px;
+}
+
+.StaticPrice {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+}
+
+.PriceView {
+	box-sizing: border-box;
+color: rgb(187, 6, 40);
+font-family: Human BBY Web;
+font-size: 15px;
+font-stretch: 100%;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+}
+
+.StaticPrice {
+	box-sizing: border-box;
+color: rgb(187, 6, 40);
+float: left;
+font-family: Human BBY Web;
+font-size: 15px;
+font-stretch: 100%;
+font-style: normal;
+font-weight: 500;
+line-height: 19px;
+padding-right: 3px;
+}
+
+.ForAlignOf99And9 {
+	box-sizing: border-box;
+color: rgb(187, 6, 40);
+font-family: Human BBY Web;
+font-size: 15px;
+font-stretch: 100%;
+font-style: normal;
+font-weight: 500;
+line-height: 18px;
+vertical-align: middle;
+}
+
+.IndentBeforeOtherSection {
+max-width: 1008px;
+min-width: 1008px;
+/* margin-bottom: 30px; */
+width: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+.OtherContainer {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: flex;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-left: -15px;
+margin-right: -15px;
+}
+
+
+
+.OtherContainer {
+	
+padding: 0 15px;
+max-width: 1008px;
+min-width: 1008px;
+width: auto;
+margin-right: auto;
+margin-left: auto;
+	
+}

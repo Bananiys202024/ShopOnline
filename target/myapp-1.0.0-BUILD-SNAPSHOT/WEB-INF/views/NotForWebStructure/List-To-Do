@@ -1,0 +1,249 @@
+count here codewars:
+10.05.19 - point of count, 1 point for even task;-1 point even day. 
+<-------------------------------
+Count points: +7
+<-----------------------------
+
+LogIn with social
+http://sunilkumarpblog.blogspot.com/2016/04/social-login-with-spring-security.html
+
+
+10.05.19
++14
+
+
+
+Algorithm for task:
++0 add limit to button of 	"CatalogOfItems" if that item in order List to display
+message "We can't delete it, before deleting  that in orderList;
+a)	 After press on button go to controller
+b) 	 Chech if 
+	column "Id" of table "Products" equals by column "PRODUCT_ID" of Order_Details;
+c)If non equals --> nothing
+d) If that equals --> Чтобы удалить продукт, необходимо сначало удалить заказ в "Листе заказов"
+
+
++0 Add ability to print check of order
+
+
+
++0 add error page https://prom.ua/product_opinion/create/p733388749?analytics_label=portal-product_view&analytics_action=finish_button_click_product
+(for mobile site adaptive);
+
++0 add default error page
+
++0 substract date in jsp . ReviewRatingCommentTo do psoted 1 years 3 moths ago
++0 recaptcha
+
+
+Midle:		
++0 Adaptability of css for mobile version web site.
++0 add warning for limit of zise of image		
++0 How add some images to page
++0 Add ability edit image of "/StartingPage";
++0 thumbUp (add columns Up and Downhumb With ajax to do that)
+
++0 thumbDown
++0 match length of input forms by database setted lengths
++0 Trending Deals(Add column to Products(numbers of sold);
++0 "Last sold" 
+People also bought(after click on button solded("executedd") add code of item to table "Solded some time ago"("Last solded")
++0 Add to view page ability` to switch different images
++0 fixing rating system
++0 add cloud;
++0Add ability to edit bottom menu data .
++0 add functions of edit for admin(in bottom menu(name of bottom product));
++0 add ability to change logo of web sites for admin;
+
+
++0 add test JMock or something similiar
++0 To do design for mobile versions of web site
+
++0Create tuble for admin. where wi will get values for custom website;
++0 add integration with Интеграция с 1С
+
+Luxury:
++0 Highlight fields with correctly entered data .
++0 add edit indicator of password
+
+
+May be yes, may be not
++0 black list of phones(orders with bad reputation);
+
+
++0 Revise different internet-shops  and used techonology
+
++0 add ability to toggle pages of "Вы недавно смотрели"ж
++0 add ability to toggle yourself between some images on page "ViewProduct";
++0 add to databse of email and phone number;(To do extracting those value from database;
+Add that to gmail(pochta for send to gmail)
+number of phone;
+
+
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+1.Add validation to "ShoppingCartCustomer"
+
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+Unresolved:
+1. default image, download;
+2. LogIn, SignIn with spring social(spring mvc)
+3. How auto generate insert examples.
+
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+Technology in next project:
+1.spring Boot
+2.Thymleaf
+3.I should use Spark framework(html patterns)
+4.What about Apache spark
+5.Without of xml
+6. Java 8
+
+7.	For future products:
+	1.I should add seven puncts(transformation in circle)
+	https://idg.net.ua/blog/devyat-prostyh-primerov-css3-perehodov
+
+8. Add swithc between languages
+9. Glass Fish or used mostly web server	
+10. Blockchain
+11. bOOTSTRAP
+12. Add ability edit comments by ip for project
+13. Use vue.js 
+14. Gradle
+Use Spring Data   
+Use vue.js 
+15. Understand more about Rabbitmq
+16. Use thymleaf;
+17 I need impolement subComments by next project;
+
+
+
+What is twillo;
+
+To familiar with twilio;
+Videos by topic "What's Twilio;
+
+
+What can do Programmable Wireless;
+What we can create with it;
+
+Как версать быстрее PSD макеты работа с нимим
+
+
+Add subcomments
+Algorithms
+Table "Subcomments"
+related columns;
+
+
+	
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+Questions:
+1. JDBC vs Hibernate;
+2. 	Xml vs Controller classes;
+3. log4j vs slf4;
+4. http://qaru.site/questions/tagged/spring-mvc;
+5. What mean characters of log4j,properties;
+6. System out println vs logger.info(logger.debug);
+7. I should read more about regular expression
+8. What is pointcuts(aspects, aspect-oriented-programming);
+9 Work with image in spring mvc;
+10. What do @Scope("session");
+11. Add aop;(pointcuts);
+12 Hibernate Annotations - Which is better, field or property access?
+Access Strategies in JPA and Hibernate – Which is better, field or property access?
+	https://thoughts-on-java.org/access-strategies-in-jpa-and-hibernate/
+	https://stackoverflow.com/questions/332591/performance-difference-between-annotating-fields-or-getter-methods-in-hibernate
+13.
+Spring Data vs hibernate
+14. Spring Data
+15.
+Gradle vs Maven;
+Should i use Gradle in next project;
+
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+Remember:
+1. Url shold be short
+2. You can't delete item in CatalogItems before deleting that in OrderList;
+3. After apply button of "Accept" on page OrderList.
+Quantity of item will be counted.
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+
+Debugging:
+1. 
+ <Connector connectionTimeout="20000" port="8080" protocol="HTTP/1.1" redirectPort="8443" URIEncoding="UTF-8"/>
+2.
+ SET FOREIGN_KEY_CHECKS=0
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+Improvments:
+1.Add to column email of table "USER_ROLES" links by column email of table USERS
+username link too;
+2.Rewrite s
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+<----------------------------------------------------------------------------->
+Notes for admin:
+
+1.Add describes for buttons of "/orderList"
+	Difference buttons "Delete" and "Executed"
+	Delete not count quantity of item
+	"Executed" counting quantity of item, after that minus quantity;
+
+
+Column "Executed need" for part of web site "Trending Deals", that count by clicked "Executed";
+As most solded
+
+"Executed" ---> "Solded";
+
+
+Add description: "Why do important press buttons "Solded" and "Send message"
+Add tips by move mouse
+Add notes for admin;
+
+Registertation in twillo and gettin own number phone;
+
+
+What can twillo,  i should know more;
+
+In the end:
+1. after pay of phone number;
+	Add exception if phone number not exists(that null too);
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	I used:
+	#Hibernate #Spring MVC #Spring Security #AJAX #Jquery #mysql
+

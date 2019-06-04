@@ -1,0 +1,557 @@
+@charset "UTF-8";
+
+
+/* <!-- Start Second Part Of Main Menu --><!-- StartSecond Part Of Main Menu --><!-- Second Part Of Main Menu --> */
+/* <!-- StartSecond Part Of Main Menu --><!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --> */
+/* <!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --> */
+/* <!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --> */
+/* <!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --> */
+/* <!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --> */
+/* <!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --><!-- Second Part Of Main Menu --> */
+
+section {
+	position:relative;
+	
+}
+
+.BlockForHref {
+width: 100%;
+
+margin-top: 10px;
+
+cursor: pointer;
+}
+
+.BlockForHref a {
+	width: 100%;
+background-color: #0046be;
+color: white;
+display: block;
+align-text: center;
+text-align: center;
+font-size: 20px;
+text-decoration: none;
+/* padding: 10px; */
+padding-top: 10px;
+padding-bottom: 10px;
+border-radius: 5px;
+/* height: 40px;	 */
+}
+
+ .ImageThatItem {
+width: 100%;
+height: 70px;
+}
+
+/* .item-list__chunk .item-list__spacer { */
+
+/* } */
+
+
+
+
+
+
+.ThereForUnityBothContainers {
+	clear: both;
+	padding: 25px 15px 15px;
+	max-width: 1008px;
+	margin: 0 auto;
+/* 	height: 1000px; */
+	width:100%;
+	
+	
+	clear: both;
+content: " ";
+display: table;
+content: "";
+/* display: block; */
+/* position: absolute; */
+left: 0;
+right: 0;
+top: -3 00px;
+bottom: 0;
+background-color: hsla(0,0%,100%,.6);
+/* opacity: 0; */
+/* visibility: hidden; */
+z-index: 3;
+transition: opacity .3s ease-out,visibility .3s;
+display: table;
+}
+
+
+
+.ContactContainer .i18n-paragraph {
+font-weight: 600;
+font-size: 20px;
+margin: 0;
+padding: 0;
+line-height: normal;
+}
+
+
+
+
+
+
+
+.BlockForContactInformation {
+margin-top: 10px;
+}
+
+.SectionOfContainer {
+padding: 10px;
+border:  2px solid #c5cbd5;
+padding: 17px 18px;;
+/* margin-top: 40px; */
+}
+
+
+
+
+.SectionOfContainer .SecondUL{
+/* font-weight: 600; */
+font-size: 20px;
+}
+
+
+.CartSummary {
+font-weight: 600;
+
+font-size: 20px;
+
+margin: 0;
+
+padding: 0;
+
+line-height: normal;
+}
+
+
+
+
+
+
+
+
+
+.SectionOfContainer ul {
+list-style: none;
+}
+
+.SectionOfContainer li {
+margin-left: -40px;
+margin-bottom: 5px;
+font-size:20px;
+}
+
+
+ ul li .title {
+	font-weight: 600;
+}
+
+.ThereForUnityBothContainers {
+	clear: both;
+	padding: 25px 15px 15px;
+	max-width: 1008px;
+	margin: 0 auto;
+/* 	height: 1000px; */
+	width:100%;
+}
+
+/* .borderIndent { */
+/* 	border-bottom: 1px solid #c5cbd5; */
+/* } */
+
+#BlockForContactInformation .ContactContainer .i18n-paragraph {
+	line-height: normal;
+
+font-size: 20px;
+
+font-weight: 600;
+
+display: inline;
+
+margin: 0;
+
+padding: 0;
+}
+
+#BlockForContactInformation .i18n-paragraph {
+width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+#BlockForContactInformation label .i18n-paragraph {
+font-weight: 600;
+}
+
+#BlockForContactInformation label input {
+	padding: 0;
+	border: 0px none;
+
+padding: 0px;
+color: #55555a;
+color: #999;
+
+opacity: 1;
+margin-top: 4px;
+height: 35px;
+box-shadow: none;
+background-color: #fff;
+line-height: normal;
+width: 100%;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-weight: 400;
+}
+
+#BlockForContactInformation .button--continue {
+	margin-top: 40px;
+}
+
+#BlockForContactInformation .btnForContinueToPaymentInformation {
+/* 	padding: 0; */
+	border: 0px none;
+padding-left: 20px;
+/* padding: 0px; */
+/* padding-left: 0; */
+
+/* padding-right: 0; */
+height: 60px;
+
+line-height: normal;
+
+/* padding: 0 40px; */
+width: 100%;
+color: #282f29 !important;
+
+background-color: #ffe000;
+font-size: 20px;
+cursor: pointer;
+
+border-radius: 4px;
+
+font-weight: 600;
+
+text-align: center;
+
+vertical-align: middle;
+
+display: inline-block;
+}
+
+#BlockForContactInformation .BlockForContactInformation {
+	width: 50%;
+	float:left;
+}
+
+#BlockForContactInformation .SectionOfContainer {
+	display: block;
+}
+
+#BlockForContactInformation .BlockForContactInformation {
+	position:relative;
+}
+
+
+
+
+
+
+#RightContainer .RightSide {
+	position: sticky;
+
+top: 0;
+width: 46.33333333%;
+
+padding-left: 15px;
+
+padding-right: 15px;
+float: left;
+}
+
+#RightContainer .ContainerOfRightMenu {
+	display: block;
+}
+
+#RightContainer .headerRightMenu {
+	padding-top: 10px;
+}
+
+#RightContainer .headerRightMenu  .order-summary__title {
+	font-weight: 600;
+
+font-size: 20px;
+margin: 0;
+padding: 0;
+
+line-height: normal;
+}
+
+#RightContainer .ItemsRightMenu {
+	border: 2px solid #c5cbd5;
+
+overflow: auto;
+}
+
+#RightContainer .ItemsRightMenu .Items {
+	background: #fff;
+
+padding: 17px 18px;
+}
+
+#RightContainer .ItemsRightMenu .AmountOfMoney {
+	border-width: 1px 0 0;
+
+margin-top: 0;
+
+padding: 20px;
+}
+
+#RightContainer .fulfillment-list-entry__hd {
+margin: 10px 0;
+}
+
+#RightContainer .item-count {
+	list-style: none;
+
+padding: 0;
+
+margin: 0;
+}
+
+
+#RightContainer .item-list_enty {
+	width: 100%;
+	list-style: none;
+	padding-bottom: 10px;
+padding-top: 10px;
+
+}
+
+#RightContainer .Items {
+	
+}
+
+#RightContainer .AmountOfMoney {
+	border: 0 solid #c5cbd5;
+	border-width: 1px 0 0;
+margin-top: 0;
+padding: 20px;
+display: block;
+}
+
+
+#RightContainer .AmountOfMoney .TighlyContainer {
+	margin-top: 0;
+}
+
+.#RightContainer .AmountOfMoney .TighlyContainer .summary {
+	
+}
+
+#RightContainer .AmountOfMoney .TighlyContainer .MonayOfResult {
+	float:left;
+	font-size: 20px;
+padding-bottom: 10px;
+}
+
+#RightContainer .AmountOfMoney .TighlyContainer .Money {
+	float:right;
+	font-weight:500;
+}
+
+#RightContainer .AmountOfMoney .TighlyContainer .summaryOfDiscount {
+	
+}
+
+#RightContainer .AmountOfMoney .TighlyContainer .Discout {
+	float:left;
+	clear:both;
+	font-size: 20px;
+padding-bottom: 10px;
+}
+
+#RightContainer .AmountOfMoney .TighlyContainer .NumberOfDiscount {
+	float:right;
+	font-weight:500;
+}
+
+.#RightContainer .AmountOfMoney .TighlyContainer span {
+	
+}
+
+#RightContainer .order-summary__rule {
+	border-top-color: #c5cbd5;
+	clear: both;
+width: 100%;
+border-top: 0px solid #c5cbd5;
+margin: 20px 0;
+height: 0;
+}
+
+#RightContainer .AmountOfMoney  .TighlyContainer .TotalMoney .Total {
+	float:left;
+	font-weight:600;
+	font-size:40px;
+}
+
+#RightContainer .AmountOfMoney  .TighlyContainer .TotalMoney .TotalAmount {
+	float:right;
+	font-weight:600;
+	font-size:40px;
+}
+
+#RightContainer .AmountOfMoney  .TighlyContainer  .TotalMoney {
+padding: 10px 0px;
+}
+
+#RightContainer .item-listTTT {
+	font-size: 11px;
+list-style: none;
+padding-bottom: 5px;
+}
+
+#RightContainer .item-listTTT .i18n-paragraph {
+	display: inline;
+
+margin: 0;
+
+padding: 0;
+font-size: 11px;
+list-style: none;
+}
+
+#RightContainer .item-list__chunk  {
+/* 	width: 100%; */
+	display: table-cell;
+
+vertical-align: top;
+list-style: none;
+}
+#RightContainer .item-list__spacer {
+	
+	max-width: 131px;
+
+display: block;
+
+font-size: 15px;
+
+text-overflow: ellipsis;
+
+word-wrap: break-word;
+
+overflow: hidden;
+
+max-height: 3.9em;
+
+line-height: 1.3em;
+padding-right: 20px;
+text-align: left;
+list-style: none;
+
+width: 100px;
+
+}
+
+#RightContainer .cash-money {
+float:right;
+font-weight: 600;
+}
+
+#RightContainer .sr-only {
+float:right;
+clear: both;
+}
+
+#RightContainer .item-list__action {
+float:right;
+padding: 0;
+border: 0px none;
+background: transparent;
+border: none;
+padding: 0px;
+float:right;
+clear: both;
+}
+
+#RightContainer .item-list__content .number {
+	font-weight:600;
+}
+
+#RightContainer .item-list__action:hover {
+color: #001e73;
+text-decoration: underline;
+}
+
+#RightContainer .item-list__spacer .item-list__gift-link {
+	display: block;
+
+padding-top: 7px;
+color: #0046be;
+
+text-decoration: none;
+background-color: transparent;
+list-style: none;
+}
+
+#RightContainer .i18n-paragraph {
+
+display: inline;
+
+margin: 0;
+
+padding: 0;
+color: #0046be;
+list-style: none;
+text-decoration:none;
+}
+
+#RightContainer .i18n-paragraph:hover {
+text-decoration: underline;	
+}
+
+
+
+
+
+.ContinueConfirmatioNOfOrder{
+line-height: normal;
+color: #fff !important;
+font-size: 15px;
+cursor: pointer;
+font-weight: 500;
+text-align: center;
+text-decoration:none;
+}
+
+
+ #RightContainer .forquantity {
+	float: left;
+}
+
+#RightContainer .number {
+	float: left;
+}
+
+
+
+/* <!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --> */
+/* <!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --> */
+/* <!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --> */
+/* <!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --> */
+/* <!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --> */
+/* <!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --> */
+/* <!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --><!-- End Second Part Of Main Menu --> */
+
+
+

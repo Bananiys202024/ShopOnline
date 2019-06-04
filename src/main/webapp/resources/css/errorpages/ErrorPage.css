@@ -1,0 +1,74 @@
+
+
+body {
+background: #4976e6;
+
+/* font-family: OpenSans,Arial,Tahoma,Helvetica,'Liberation Sans',sans-serif; */
+
+line-height: 1.4;
+
+font-size: 13px;
+
+font-weight: 400;
+
+color: #333;
+}
+
+
+
+.layout {
+height: 98vh;
+width: 100%;
+display: table;
+background: #fff;
+}
+
+.FirstLevel {
+	display: table-row;
+height: 100%;
+}
+
+.SecondLevel {
+	display: table;
+width: 100%;
+height: 80vh;
+}
+
+.ThirdLevel {
+	position: relative;
+display: table-cell;
+vertical-align: middle;
+}
+
+
+
+.message {
+	position: relative;
+display: block;
+width: 505px;
+margin: 0 auto;
+}
+
+
+.Text {
+	
+	margin: 0 0 15px;
+    margin-bottom: 15px;
+margin-bottom: 15px;
+font-size: 24px;
+font-weight: 400;
+
+}
+
+.UseSearch {
+	margin-bottom: 40px;
+}
+
+.UseSearch  a {
+	text-decoration:none;
+	color:blue;
+}
+
+.UseSearch  a:hover {
+	text-decoration:underline;
+}

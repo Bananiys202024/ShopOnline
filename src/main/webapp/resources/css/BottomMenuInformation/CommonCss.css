@@ -1,0 +1,100 @@
+.static-container {
+  width: 100%;
+margin: 0 auto 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+max-width: 940px;
+padding: 0 20px 0 20px !important;
+box-sizing: border-box;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+margin-top: 50px;
+margin-bottom: 90px;
+}
+
+.pagePartTitle.high {
+    font-size: 20px;
+}
+
+
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+.pagePartTitle {
+    font-family: 'FuturaPTMedium';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+
+.center {
+    text-align: center;
+}
+
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+
+.mb10 {
+    margin-bottom: 10px;
+}
+
+
+
+element {
+}
+.pageDescStatic {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+
+
+.hr-one-line {
+    margin-top: 32px;
+}
+
+.big {
+/*     max-width: none; */
+    width: 100%;
+}
+
+
+.pageDescStatic {
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #000;
+    line-height: 25px;
+}
+
+.mb30 {
+    margin-bottom: 30px;
+}
+
+
+
+
+
+* {
+	margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+

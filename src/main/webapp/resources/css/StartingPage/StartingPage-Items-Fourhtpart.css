@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+
+
+
+/* Other Container */
+.DefineLocation {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+float: left;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 30px;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+position: relative;
+width: 336px;
+}
+
+.ContainerDefine {
+	border-bottom-color: rgb(197, 203, 213);
+border-bottom-style: solid;
+border-bottom-width: 1px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(197, 203, 213);
+border-left-style: solid;
+border-left-width: 1px;
+border-right-color: rgb(197, 203, 213);
+border-right-style: solid;
+border-right-width: 1px;
+border-top-color: rgb(197, 203, 213);
+border-top-style: solid;
+border-top-width: 1px;
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 356.45px;
+line-height: 0px;
+margin-top: 0px;
+min-height: 125px;
+}
+
+.TighlyContainer {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 0px;
+}
+
+.LocationImage {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: inline-block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+max-width: 302px;
+padding-bottom: 0px;
+padding-left: 15px;
+padding-right: 15px;
+padding-top: 15px;
+width: 302px;
+}
+
+.Image {
+	background-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+text-align: left;
+text-decoration: none;
+text-decoration-color: rgb(0, 70, 190);
+text-decoration-line: none;
+text-decoration-style: solid;
+}
+
+.PictureInOtherContainer {
+	border-bottom-color: rgb(0, 70, 190);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(0, 70, 190);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(0, 70, 190);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgb(0, 70, 190);
+border-top-style: none;
+border-top-width: 0px;
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+height: 184.85px;
+line-height: 0px;
+max-width: 100%;
+text-align: left;
+vertical-align: middle;
+width: 272px;
+}
+
+.LocationOfText {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: inline-block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+padding-bottom: 11px;
+padding-left: 11px;
+padding-right: 11px;
+padding-top: 11px;
+vertical-align: top;
+width: 304px;
+}
+
+
+.LocationOfText h3 {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+margin-bottom: 8px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+}
+
+
+.LocationOfText p {
+box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+margin-bottom: 9px;
+margin-left: 0px;
+margin-right: 0px;
+margin-top: 0px;
+}
+
+.LocationOfText .link {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 16.9px;
+}
+
+.link a {
+	background-color: rgba(0, 0, 0, 0);
+box-sizing: border-box;
+color: rgb(0, 70, 190);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 16.9px;
+text-decoration: none;
+text-decoration-color: rgb(0, 70, 190);
+text-decoration-line: none;
+text-decoration-style: solid;
+}
+
+
+
+
+
+
+/* End Other Container */

@@ -1,0 +1,72 @@
+
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+
+
+<div class="CommonSideMenu">
+<div class="ContainerForRepair">
+<div class="TryDefineLocation">
+
+<div class="facet-section">
+<section class="lv facet">
+<fieldset name="Category">
+
+<legend class="facet-legend">
+<span class="c-section-title-text">Category</span>
+</legend>
+
+<nav>
+<ul class="facet-option-list thatRightSide1">
+
+
+<%-- <c:if test="${list.size()<=1}">id="Removearrow"</c:if>  --%>
+<%-- <form:select path="categories" class="SelectMenu WithoutArrows" style="background-image: none !important;"> --%>
+<%-- <form:option   value="Весь инструмент">Весь инструмент</form:option> --%>
+<%-- </form:select>	 --%>
+
+
+<%-- <form:select path="categories" class="SelectMenu WithoutArrows" style="background-image: none !important;"> --%>
+<%-- <form:option   value="Аккумуляторный инструмент">Аккумуляторный инструмент</form:option> --%>
+<%-- </form:select> --%>
+
+<%-- <form:select path="categories" class="SelectMenu WithoutArrows" style="background-image: none !important;"> --%>
+<%-- <form:option   value="Наборы инструментов">Наборы инструментов</form:option> --%>
+<%-- </form:select> --%>
+
+
+
+
+<c:forEach items="${listOfSectionsMain}" var="list">
+<form:select path="categories" class="SelectMenu">	
+<form:options items="${list}" class="${list}OptionEspecially"/>
+</form:select>
+
+</c:forEach>
+
+
+</ul>
+</nav>
+
+</fieldset>
+</section>
+</div>
+
+
+
+<%-- <form:select path="subCategoriesOrSections" items="${listOfSectionsMain}" /> --%>
+
+
+
+
+
+
+
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->

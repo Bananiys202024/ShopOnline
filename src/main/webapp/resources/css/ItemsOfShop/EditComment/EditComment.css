@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+
+
+.CheckMarks span {
+    float: left;
+
+    width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+
+#Recommend2 {
+    margin-bottom: 10px;
+	display: inline !important;
+width: 2% !important;;
+height: 5% !important;
+}
+
+.CheckMarks span {
+    font-size: 15px;
+
+}
+
+#Recommend1 {
+	display: inline !important;
+width: 2% !important;;
+height: 5% !important;
+}

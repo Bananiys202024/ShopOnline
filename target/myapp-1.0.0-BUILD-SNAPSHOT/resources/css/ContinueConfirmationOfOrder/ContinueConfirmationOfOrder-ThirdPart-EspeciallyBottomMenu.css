@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+
+
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+/* <!-- Start Third Part of Bottom Menu --><!-- Start Third Part of Bottom Menu --> */
+
+#BottomPartMenu .BottomMenu {
+width: 1008px;
+margin: 15px auto;
+max-width: 1008px;
+font-size: 11px;
+color: #1d252c;
+
+margin-bottom: 30px;
+margin-top: 20px;
+
+}
+
+#BottomPartMenu .BottomMenu .ThatUlList {
+	margin: 0;
+padding: 0;
+list-style-type: none;
+font-size: 11px;
+color: #1d252c;
+}
+
+#BottomPartMenu .BottomMenu .ThatUlList li {
+	
+	display: inline-block;
+
+padding: 0;
+
+margin: 0;
+list-style-type: none;
+text-decoration:none;
+}
+
+#BottomPartMenu .BottomMenu .ThatUlList li:hover {
+text-decoration:underline;
+}
+
+#BottomPartMenu .BottomMenu .ThatUlList li a {
+padding: 0 5px 0 8px;
+margin: 0;
+font-size: 11px;
+border-left: 1px solid #c5cbd5;
+line-height: 1.5px;
+color: #0046be;
+text-decoration: none;
+font-size: 15px;
+}
+
+#BottomPartMenu .BottomMenu .ThatUlList li .mini-footer__linkFirst {
+	padding-left: 0;
+	border-left: none;
+}
+
+
+#BottomPartMenu .BottomMenu .mini-footer__sites {
+	text-decoration:none;
+	padding-top:10px;
+	font-size: 15px;
+}
+
+#BottomPartMenu .BottomMenu .mini-footer__sites .mini-footer__feedback {
+	border-right: 1px solid #c5cbd5;
+	padding-right:10px;
+	text-decoration:none;
+	color:#1d5bc5;
+	font-size: 15px;
+}
+
+#BottomPartMenu .BottomMenu .mini-footer__sites .mini-footer__feedback:hover {
+	text-decoration:underline;
+}
+
+#BottomPartMenu .BottomMenu .mini-footer__sites .mini-footer__mobile {
+text-decoration:none;
+padding-left:10px;
+color:#1d5bc5;
+font-size: 15px;
+}
+
+#BottomPartMenu .BottomMenu  .mini-footer__sites .mini-footer__mobile:hover {
+text-decoration:underline;
+}
+
+#BottomPartMenu .BottomMenu  .mini-footer__disclaimer {
+font-size: 13px;
+padding-top:10px;
+}
+
+
+
+
+
+
+
+
+
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */
+/* <!-- End Third Part of Bottom Menu --><!-- End Third Part of Bottom Menu --> */

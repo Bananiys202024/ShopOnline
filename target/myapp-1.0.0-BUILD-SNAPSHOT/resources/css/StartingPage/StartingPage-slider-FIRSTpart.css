@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+.check1 {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+}
+
+.check2 {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+min-width: 1008px;
+overflow-x: hidden;
+}
+
+.check3 {
+	box-sizing: border-box;
+color: rgb(29, 37, 44);
+display: block;
+font-family: "Human BBY Web", Arial, Helvetica, sans-serif;
+font-size: 13px;
+line-height: 16.9px;
+}
+
+
+body {
+/* font-size: 13px; */
+
+line-height: normal;
+
+color: #1d252c;
+
+font-family: "Human BBY Web",Arial,Helvetica,sans-serif;
+}
+
+
+/* Start Of Slider */
+
+.ContainerForAllPartsOfBody {
+line-height: 1.3;
+margin-top:0;
+}
+
+.ContainerForAllPartsOfBodyForAlignOfBodyFromSides {
+padding: 0 15px;
+max-width: 1008px;
+min-width: 1008px;
+/* margin-bottom: 30px; */
+width: auto;
+margin-right: auto;
+margin-left: auto;
+}
+
+.ContainerForSliderWithPointsForSwithcOfSlide {
+margin-left: -15px;
+margin-right: -15px;
+height: 500px;
+width: 100%;	
+margin-bottom: 30px;
+}
+
+.DuplicatedContainerForSliderWithPointsForSwithcOfSlideForPointOfMarginFromBottom {
+margin-bottom: 30px;
+width: 100%;
+float: left;
+position: relative;
+min-height: 1px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.DuplicatedContainerForSliderWithPointsForSwithcOfSlideForMarginTop {
+		margin-top: 0;
+}
+
+.ContainerForImageOfSlider {
+background: url(../../images/StartingPage/Slider.jpg);
+height: 455px;
+width: 101.3vw;
+text-indent: 100%;
+white-space: nowrap;
+overflow: hidden;
+position: absolute;
+left: calc(-1 * ((100vw - 977px) / 2));
+min-width: 978px;
+background-size: none;
+z-index: -1;
+background-repeat: no-repeat;
+background-position: top;
+max-width: none;
+}
+
+
+
+.LocationOfTextAndButtonOnBackgroundBeatifulSlider {
+	text-align: left;
+	left: 5px;
+	top: 0;
+	position: relative;
+	width: 335px;
+	color: #fff;
+	margin: 175px 0;
+	padding: 15px;
+	position: absolute;
+	width: 350px;
+}
+
+.ButtonOfSlider {
+	display: inline-block;
+
+margin-top: 10px;
+line-height: 30px;
+font-size: 13px;
+
+height: 30px;
+
+line-height: normal;
+
+padding: 0 24px;
+text-decoration: none !important;	
+border: 0;
+
+font-size: 15px;
+
+height: 35px;
+
+line-height: normal;
+
+padding: 0 28px;
+
+cursor: pointer;
+
+border-radius: 4px;
+
+font-weight: 500;
+
+text-align: center;
+
+vertical-align: middle;
+
+display: inline-block;
+
+-webkit-transition: all .3s ease-out 0s;
+
+transition: all .3s ease-out 0s;
+
+color: #0046be !important;
+
+background-color: #e0e6ef;
+}
+.ButtonOfSlider:hover {
+background-color: #c5cbd5;
+}
+
+.SmallSignatureUnderParagraph {
+	color: #e0e6ef;
+	font-size: 11px;
+	line-height: 17px;
+	margin: 10px 0 0;
+}
+
+.LocationOfTextAndButtonOnBackgroundBeatifulSlider h3 {
+	font-size: 15px;
+font-weight: 500;
+margin: 10px 0 0;
+padding: 0;
+line-height: normal;
+}
+
+.LocationOfTextAndButtonOnBackgroundBeatifulSlider p {
+	font-size: 15px;
+	line-height: 17px;
+
+margin: 10px 0 0;
+text-align: left;
+color: #fff;
+font-family: "Human BBY Web",Arial,Helvetica,sans-serif;
+}
+
+.ContainerForSlider {
+width: 100%;
+opacity: 1;
+-moz-transition: opacity .4s ease-in;
+}
+
+
+
+.ContainerWhetherPointsForSwithcOfSlide {
+	min-height: 305px;
+	justify-content: flex-start;
+	align-items: flex-end;
+	height: 400px;
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	position: relative;
+}
+
+
+
+

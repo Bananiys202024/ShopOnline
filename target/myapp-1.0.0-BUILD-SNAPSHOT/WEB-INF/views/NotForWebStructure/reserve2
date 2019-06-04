@@ -1,0 +1,123 @@
+
+
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+
+
+<div class="CommonSideMenu">
+<div class="ContainerForRepair">
+<div class="TryDefineLocation">
+
+<div class="facet-section">
+<section class="lv facet">
+<fieldset name="Category">
+
+<legend class="facet-legend">
+<span class="c-section-title-text">Category</span>
+</legend>
+
+<nav>
+<ul class="facet-option-list thatRightSide1">
+
+<%-- ${listOfSectionsMain.value} --%>
+
+
+<!-- path="categories" -->
+<%-- <form:select path="categories"> --%>
+<c:forEach items="${listOfSectionsMain}" var="listSection">	
+
+
+<c:set var="string1" value="${listSection.value}"/>
+<c:set var="string2" value="${fn:replace(string1,' ', '')}" />
+<c:set var="valueWithooutWhiteSpaces" value="${fn:replace(string2,'/', '')}" />
+
+
+
+<li id="selectedForCss<c:out value = "${valueWithooutWhiteSpaces}"/>" class="facet-option-list-item ">
+
+<!-- selectedForCss -->
+<a href="CatalogOfitems?categorySort=${listSection.value}">
+<span class="facet-option-container">
+<span class="c-facet c-facet-category v-small ">
+<span class="c-facet-text">${listSection.value}</span>
+</span></span>
+</a>
+<!-- path="subCategoriesOrSections" -->
+
+ <c:if test="${not fn:containsIgnoreCase(listSection.key, 'ThatEmpty')}">
+
+
+<div id="clickableValues<c:out value = "${valueWithooutWhiteSpaces}"/>">
+<img class="DropArrowImg" src="${pageContext.request.contextPath}/resources/images/CatalogOfItems/grey-down-arrow-icon-png-1.png" alt="" />
+</div>
+
+
+
+<!-- sub elements -->
+
+<!-- path="subCategoriesOrSections" -->
+<div id="ShowOrHideSubMenu<c:out value = "${valueWithooutWhiteSpaces}"/>" class="hideClass">
+
+<%-- <form:select path="subCategoriesOrSections"> --%>
+<c:forEach  items="${listSection.key}" var="subMenu">	
+
+<div class="SubList forCss">
+<a href="CatalogOfitems?SortingBySections=${subMenu}">
+
+${subMenu}
+
+</a>
+</div>
+</c:forEach>
+<%-- </form:select> --%>
+
+
+
+</div>
+
+<!-- ... -->
+</c:if>
+
+<script>
+$( "#clickableValues<c:out value = "${valueWithooutWhiteSpaces}"/>").click(function() {
+// 	alert("Ok");
+	
+	$('#ShowOrHideSubMenu<c:out value = "${valueWithooutWhiteSpaces}"/>').toggleClass('showClass');
+	$('#selectedForCss<c:out value = "${valueWithooutWhiteSpaces}"/>').toggleClass('selectedForCss');
+	
+	
+});
+</script>
+
+</li>
+</c:forEach>
+
+
+
+</ul>
+</nav>
+
+</fieldset>
+</section>
+</div>
+
+
+
+<%-- <form:select path="subCategoriesOrSections" items="${listOfSectionsMain}" /> --%>
+
+
+
+
+
+
+
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+<!-- --------------------------------------------------------- -->
+

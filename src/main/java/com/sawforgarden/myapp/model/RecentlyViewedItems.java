@@ -1,0 +1,19 @@
+package com.sawforgarden.myapp.model;
+
+public class RecentlyViewedItems {
+
+	private String id;
+
+	public String getId() {
+		return id;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public void concatId(String id) {
+		this.id+=id;
+	}
+	
+}

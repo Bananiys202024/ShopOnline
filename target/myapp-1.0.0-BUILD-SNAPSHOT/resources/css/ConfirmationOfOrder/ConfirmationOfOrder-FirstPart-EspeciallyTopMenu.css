@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+
+#TopMenuOfCheckOut .OwnerContainer {
+	background-color: #0046be;
+/* 	position:absolute; */
+	height:100px;
+	width: auto;
+	top:0;
+	left:0;
+	padding-left: 450px;
+	
+}
+
+#TopMenuOfCheckOut .OwnerContainer img {
+	width:170px;
+	height:85px;
+	float:left;
+	display: inline;
+	
+}
+
+#TopMenuOfCheckOut .OwnerContainer .CheckOut {
+float: left;
+font-size: 30px;
+margin-bottom: 0;
+margin-top: 40px;
+color: #ffffff;
+font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+text-decoration:none;
+}
+
+
+#TopMenuOfCheckOut .ReturnToCart {
+
+	float:right;
+	padding-right: 480px;
+/* 	color: #e0e6ef; */
+/* 	margin-top: 35px; */
+	text-decoration:none;
+	
+	margin-top: 40px;
+}
+
+#TopMenuOfCheckOut .CheckOutOfHref {
+	text-decoration:none;
+	color: #ffffff;
+font-size: 30px;
+font-weight: 300;
+line-height: 32px;
+}
+
+#TopMenuOfCheckOut .ReturnToCartHref {
+	text-decoration:none;
+	color: #e0e6ef;
+}
+
+#TopMenuOfCheckOut .ReturnToCartHref:hover {
+	text-decoration:underline;
+	float:right;
+}
+
+/* #TopMenuOfCheckOut .CheckOutOfHref:hover { */
+/* 	text-decoration:underline; */
+/* } */
+
+/* #TopMenuOfCheckOut .OwnerContainer .CheckOut:hover { */
+/* 	text-decoration:underline; */
+/* } */
+	
+/* #TopMenuOfCheckOut .ReturnToCartHref:hover { */
+/* 	flaot:right; */
+/* 	text-decoration:underline;	 */
+/* } */
+
+
+
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */
+/* <!-- End First Part Of Menu --><!-- End First Part Of Menu --><!-- End First Part Of Menu --> */

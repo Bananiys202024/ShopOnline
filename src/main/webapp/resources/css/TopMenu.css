@@ -1,0 +1,628 @@
+
+body {
+	margin:0;
+	box-sizing: border-box;
+}
+
+.ContainerForAllMenu {
+		background: #4976e6;
+		position: relative;
+}
+
+
+/*  Start Of BottonOfTopMenu */
+
+.BottomTopMenu {
+	background: #4976e6;
+	height: 42px;
+	width: 100%;
+	border-top: 1px solid #8ba7ed;
+}
+
+.ContainerForCenterALink {
+height: 42px;
+display: flex;
+align-items: center;
+max-width: 1008px;
+/* padding: 0 15px; */
+margin: 0 auto;
+/* box-sizing: border-box; */
+}
+
+.LeftListOfBottomTopMenu {
+list-style: none;	
+}
+
+.LeftListOfBottomTopMenu {
+float:left;
+font-size: 13px;
+line-height: 1.5;
+font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+font-size: 19px;
+font-weight: 500;
+padding-top: 10px;
+padding-bottom: 10px;
+display: inline-block;
+}
+
+.LeftListOfBottomTopMenu li .second, .third, .fourth	{
+padding: 0 15px;
+}	
+.LeftListOfBottomTopMenu li .first	{
+
+padding-left:0;
+}	
+
+.BottomTopMenu i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+.BottomTopMenu .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.RightListOfBottomTopMenu{
+vertical-align: middle;
+	padding-top: 12px;
+	padding-bottom: 10px;
+	font-size: 13px;
+	text-transform: none;
+	position: relative;
+	margin-left: auto;
+	
+}
+
+.RightListOfBottomTopMenu li {
+padding: 0 10px;
+	
+}
+
+/* text-decoration: underline; */
+
+.BottomTopMenu .account {	
+height:25px;
+width: 25px;
+text-overflow: ellipsis;
+display: inline-block;
+overflow: hidden;
+white-space: nowrap;
+vertical-align: middle;
+margin-bottom: 5px;
+padding-right: 4px;
+}
+
+.BottomTopMenu ul li {
+	  display: inline-block;
+	  color: #fff;
+	  
+}
+
+/* End BottomofTopMenu */
+
+
+
+/* 	background: #4976e6; */
+
+
+
+
+/* Start MiddleTopMenu */
+.logo {
+width: 14%;
+float: left;
+height: 69px;
+margin-top: -15px;
+padding-top: 13px;
+}
+
+
+.MidleTopmenu {	
+padding-top: 3px;
+min-height: 61px;
+max-width: 1008px;
+padding: 0 15px;
+padding-top: 0px;
+margin: 0 auto;
+}	
+
+
+.ComeTogether {
+    position: relative;
+/*     white-space: nowrap; */
+	margin: 0 0 0 40px;	
+}
+
+/* Start Search Box */
+
+..MidleTopmenu form {
+
+    margin: 15px 0 0 30px;
+    display: flex;
+    align-items: center;
+    padding: 3px 0 0;
+    white-space: nowrap;
+    position: static;
+
+}
+
+.search-bar {
+
+    width: 40%;
+    float: left;
+    padding: 0;
+    position: relative;
+    white-space: nowrap;
+	margin-left: 5px;
+	margin-top: 15px;
+}
+
+.MidleTopmenu input[type=text] {
+    width: 330px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+
+.header-search-button {
+
+		border-radius: 4px;
+		box-sizing: border-box;
+    border: 2px solid #ccc;
+	   height: 32px;
+	   width: 30px;
+       background: #fff;
+       padding: 1px 2px;
+/*     border-width: 1px 1px 1px 0; */
+    border-style: solid white;
+/*     border-color: #c5cbd5; */
+/*     border-radius: 0 4px 4px 0; */
+/*     font-size: 18px; */
+/*     cursor: pointer; */
+/*     color: #0046be; */
+/*     height: 35px; */
+/*     padding-left: 0; */
+/*     margin-left: -1px; */
+vertical-align: middle;
+/* vertical-align: middle; */
+left: 0;
+margin-left: -19px;
+border-left: none;
+height: 34px;
+}
+
+/* End Search Box */
+
+
+.cart {
+
+	height:40px;
+	width:40px;
+    position: relative;
+    line-height: 1;
+    margin-left: 20px;
+	
+	
+}
+
+.WhiteLine {
+	
+	border-left: 1px solid white;
+	weight:20px;
+	display: flex;
+	justify-content: flex-end;
+	
+}
+
+.user-menus {
+
+    display: flex;
+    justify-content: flex-end;
+	padding-top: 20px;
+	
+	
+}
+
+.user-menus a {
+/* 	color:white; */
+	color: #fff;
+
+border-left: 1px solid #4976e6;
+
+padding-left: 10px;
+
+padding-top: 10px;
+
+padding-right: 10px;
+
+padding-bottom: 8px;
+
+line-height: 1.6;
+
+text-decoration: none;
+}
+
+.user-menus a:hover {
+text-decoration: underline;
+}
+
+
+.location {
+	height: 40px;
+	width: 40px;
+	padding-bottom:10px;
+	
+	display: flex;
+	align-items: center;
+	font-size: 13px;
+	padding: 0;
+	line-height: normal;
+	border: 0 !important;
+	
+}
+
+.Country {
+	max-width: 175px;
+
+text-overflow: ellipsis;
+
+overflow: hidden;
+
+white-space: nowrap;
+
+margin-right: 5px;
+
+font-weight: 500;
+}
+
+
+.OpenUntill {
+	white-space: nowrap;
+
+font-style: italic;
+
+font-weight: 400;
+}
+
+/* color: #fff !important; */
+
+/* background: 0 0 !important; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End MiddleTopMenu */
+
+
+
+
+
+
+.Undefined {
+	width: 100%;
+}
+
+
+
+/* Start Top Of TopMenu */
+.TopOfTopMenuFromFreePart {
+max-width: 1008px;
+padding: 5px 15px 0;
+margin: 0 auto;
+min-height: 41px;
+
+
+}
+
+
+
+.TopOfTopMenuFromFreePart ul li {
+list-style: none;
+display: inline;
+margin: 0;
+color:white;	
+width:100%;	
+padding:0px 10px;
+}
+
+
+
+
+.TopOfTopMenuFromFreePart a{
+font-size: 13px;
+line-height: 1.5;
+color: #fff;
+font-weight: 400;
+
+}
+
+		
+/* End Top Of TopMenu */
+
+
+/* aDD TO START tOP OFmENU MIN-HEIGHT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dropbtn {
+  color: rgb(255, 255, 255);;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  max-height:0px;
+   outline: none;
+   border: 0;
+  background: transparent;
+  font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+font-weight: 500;
+
+  max-height: 20px;
+min-height: 20px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  color: #fff200;
+/*   padding: 16px; */
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  max-height:0px;
+   outline: none;
+   border: 0;
+  background: transparent;
+  font-family: Human BBY Web,Arial,Helvetica,Nimbus Sans L,Liberation Sans,FreeSans,sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+font-weight: 500;
+  
+  
+  max-height: 20px;
+min-height: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 230px;
+  overflow: auto;
+  border: 1px solid #ddd;
+  z-index: 1;
+  padding: 2px 5px;
+  
+width: 100%;
+left: 0;
+/* padding-left: 450px; */
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 2px 5px;
+  text-decoration: none;
+  display: block;
+  font-size:20px;
+}
+
+.show {
+	display: block !important;
+	width:800px; margin:0 auto;
+	
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.iconAppliance {
+display: inline-block;
+float: left;
+}
+
+.iconAppliance img {
+width: 90px;
+height:40px;
+display: inline-block;
+margin-right: 15px;
+top: 3px;
+position: relative;
+text-align: center;
+}
+
+.liMenuOfDropMenu {
+margin: 0;
+padding: 0;
+list-style: none;
+visibility: visible;
+width: 510px;
+height: 50px;
+}
+
+.shopby {
+float: left;
+/* padding-left: 20px; */
+box-sizing: border-box;
+visibility: visible;
+/* margin-left: 30%; */
+}
+
+
+.HrefOfCatalogMenu {
+color: #0046be;
+text-transform: none;
+font-size: 13px;
+padding: 8px 0;
+display: inline-block;
+width: 100%;
+text-decoration: none;
+}
+
+.shopby h2 {
+margin-left: 9px;
+font-size: 15px;
+color: #55555a;
+text-transform: capitalize;
+font-weight: 500;
+margin-top: 0;
+padding: 0;
+margin: 0;
+border: none;
+margin-bottom: 3px;
+border: none;
+line-height: normal;
+
+padding-left: 40px;
+font-size: 15px;
+font-weight: 600;
+}
+
+
+.SignOfCatalogTopMenu {
+	display:inline-block;
+	float: left;
+padding-top: 14px;
+}
+
+.CommonUlForDropDownMenuFirstLevel {
+column-count: 3;
+list-style: none;	
+float: left;
+column-count: 3;
+column-gap: 10px;
+column-width: 335px;
+height: 214px;
+}
+
+.RightListOfBottomTopMenu .rightSideOfBottomTopMenu {
+		font-size: 18px;
+		color: white;
+text-decoration: none;
+}
+
+
+.CartWithItems {
+	font-size: 18px !important;
+	text-decorataion:none;
+}
+
+.CartWithItems:hover {
+	text-decorataion:underline;
+}
+
+
+.coutnOfItemsInBusketOfCart {
+/* background-color: #fff200; */
+/* width: 40px; */
+
+/* height: 22px; */
+/* border-radius: 10px; */
+}
+
+
+
+.coutnOfItemsInBusketOfCart .number {
+	padding-left: 3px;
+	color:white;
+font-size: 19px;
+}
+
+
+
+
+
+
+
+
+
+
