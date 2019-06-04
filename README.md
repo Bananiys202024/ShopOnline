@@ -49,7 +49,7 @@
         </li>
         
         <li>For working of sorting:
-        You should add to your tomcat to file "server.xml" next line:
+
         </li>
         
         <li>for connecting Registration and RestorePassword:
