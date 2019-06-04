@@ -15,8 +15,8 @@ public class SendSms {
 			.getLogger(SendSms.class);
 		
 	// Find your Account Sid and Auth Token at twilio.com/console
-    public static final String ACCOUNT_SID = "ACf0e0ba472cea23314116630e88a92d6d";
-    public static final String AUTH_TOKEN = "d871de7cfb6f3d8fff66910fc10e0876";
+    public static final String ACCOUNT_SID = "****";
+    public static final String AUTH_TOKEN = "**";
 
 	public static void SendSmsWithTwillo(String PHONEMESSAGE,String phone) {
 		
