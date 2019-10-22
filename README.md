@@ -1,7 +1,7 @@
 # ShopOnline
 
 <h2>Overwiew</h2>
-<h6>This is my first web stie. He is completed. He works, but...code is terrible, but I am too lazy for fixing and refactoring this code because project is very big. <h6>
+<h6>This is my first web stie. He is completed. He works, but...code is terrible, but I am too lazy for fixing and refactoring this code because project is very big, code in CONTROLLER expecially terrible, please don't see on it, but there are many different things which cost to notice. <h6>
 
 <h2>Frameworks and tools</h2>
 
