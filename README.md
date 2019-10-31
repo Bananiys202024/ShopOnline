@@ -67,7 +67,7 @@
    
 </h6>
 
-   <h2>How use Mysql</2>
+   <h2>How use Mysql</h2>
 
    I'm using for start <br>
    
