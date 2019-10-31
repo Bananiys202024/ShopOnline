@@ -61,7 +61,17 @@
         
    </li> 
    </ol>
+   
+   
+
+   
 </h6>
+
+   <h6>How use Mysql</h6>
+
+   I'm using for start <br>
+   
+        mysql -p -u root
     
     
     
