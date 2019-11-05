@@ -73,9 +73,26 @@
    
         mysql -p -u root
     
-    
-    
-    
+   Show databases
+   
+         SHOW DATABASES
+         
+   Show tables
+   
+         SHOW TABLES
+   
+   Use database "SawForGarden"
+   
+         USE SawForGarden
+         
+   Revise database "users" , database structure
+   
+         DESCRIBE users;
+         
+   
+   Revise all content of table "users"
+   
+         SELECT * FROM users;
     
     
     
